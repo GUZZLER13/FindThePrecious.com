@@ -17,10 +17,6 @@
     src: url('../fonts/tngan.ttf') format('truetype');
 }
 
-@font-face {
-    font-family: 'twengar';
-    src: url('../tngan.ttf') format('truetype');
-}
 
  /* BODY */
 
@@ -39,7 +35,6 @@ width:auto;
 .navbar {
   border-radius: 0px;
 }
-
 
 .burger {
   background-color:#F7550A;
@@ -109,15 +104,18 @@ visibility:hidden;
 }
 
 
+.nav.nav_onglet > li > a {
+font-size:1.5em;
+font-family:aniron;
+color:#635A5A;
+}
+
+
+
 .nav.nav_onglet > li > a:hover {
 color:#F7550A;
 background-color:transparent;
 text-decoration:underline;
-}
-
-.zone-pills > li > a {
-  font-family:twengar;
-
 }
 
 .liens_pills {
@@ -344,6 +342,7 @@ font-size:4vw;
 .carousel h1 {
 font-size:5vw;
 }
+
 
 
 }
