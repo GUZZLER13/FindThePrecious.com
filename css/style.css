@@ -28,6 +28,14 @@ width:auto;
 
 /* MENU */
 
+.navbar-default {
+  border: 0px;
+}
+
+.navbar {
+  border-radius: 0px;
+}
+
 
 .burger {
   background-color:#F7550A;
@@ -95,14 +103,6 @@ visibility:hidden;
 .nav.nav_onglet > li > a:hover .effet-pills {
 	visibility:visible;
 }
-
-
-.nav.nav_onglet > li > a {
-font-size:1.5em;
-font-family:aniron;
-color:#635A5A;
-}
-
 
 
 .nav.nav_onglet > li > a:hover {
