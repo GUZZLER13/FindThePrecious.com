@@ -17,6 +17,10 @@
     src: url('../fonts/tngan.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'twengar';
+    src: url('../tngan.ttf') format('truetype');
+}
 
  /* BODY */
 
@@ -109,6 +113,11 @@ visibility:hidden;
 color:#F7550A;
 background-color:transparent;
 text-decoration:underline;
+}
+
+.zone-pills > li > a {
+  font-family:twengar;
+
 }
 
 .liens_pills {
