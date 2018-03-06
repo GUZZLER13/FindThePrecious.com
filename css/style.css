@@ -240,9 +240,9 @@ margin-top:1.5vw;
 
 @media (max-width:768px) {
 	
-.navbar-form {
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
 	border:0;
-	}
+}
 
   .main_menu{
   font-size: 15px;
