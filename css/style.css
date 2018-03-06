@@ -239,6 +239,10 @@ margin-top:1.5vw;
 /* MEDIA QUEYRIES */
 
 @media (max-width:768px) {
+	
+.navbar-form {
+	border:0;
+	}
 
   .main_menu{
   font-size: 15px;
@@ -265,25 +269,6 @@ text-align:center;
 width:80%;
 color:red;
 }
-
-
-
-
-/* (je n'arrive pas à régler les noms visible et caché en petit écran .... ) */
-
-
-/* .name, .name_gimli{
-font-size:2em;
-}
-
-.thumbnail:hover .name, .thumbnail:hover .name_gimli {
-font-size:900%;
-top:90%
-}
-
-*/
-
-
 
 h1, h2 {
 font-size:1.2em;
